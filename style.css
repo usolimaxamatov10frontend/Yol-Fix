@@ -667,6 +667,14 @@
             transition: all 0.2s ease;
         }
 
+        .yelloww{
+            background: #f39d121f;
+        }
+
+        .redd{
+            background: #e74d3c21;
+        }
+
         .summary-card.active-completed {
             background: rgba(46, 204, 113, 0.1);
             border-color: rgba(46, 204, 113, 0.2);
