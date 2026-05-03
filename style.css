@@ -1195,34 +1195,24 @@ img {
     color: gray;
 }
 
-.div-img1 {
-    background: no-repeat center/cover;
-    position: relative;
+.imgg1 {
+    height: 204px;
+    background: url(https://mgx-backend-cdn.metadl.com/generate/images/1082255/2026-04-18/m3qiyoyaae7q/pothole-fixed-done.png) no-repeat center/cover;
 }
 
-.div-img2 {
-    background: no-repeat center/cover;
+.imgg2 {
+    height: 204px;
+    background: url(https://mgx-backend-cdn.metadl.com/generate/images/1082255/2026-04-18/m3qiwjqaafaq/pothole-report-1.png) no-repeat center/cover;
 }
 
-.div-img3 {
-    background: no-repeat center/cover;
+.imgg3 {
+    height: 204px;
+    background: url(https://mgx-backend-cdn.metadl.com/generate/images/1082255/2026-04-18/m3qiwciaae7a/pothole-report-2.png)  no-repeat center/cover;
 }
 
-.imgg {
+.imgg{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: 
-        linear-gradient(180deg, #181716 0%, rgba(24, 23, 22, 0) 100%);
-
-}
-
-.gradient {
-    z-index: 10;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .card {
@@ -1253,4 +1243,3 @@ img {
     background: #181716;
     padding: 20px 20px 20px 20px;
 }
-
