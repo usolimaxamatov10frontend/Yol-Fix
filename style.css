@@ -208,7 +208,7 @@ img {
 
 @media (min-width: 768px) {
     .mobile-menu {
-        display: none !important;
+        display: none;
     }
 }
 
@@ -1196,16 +1196,22 @@ img {
 }
 
 .imgg1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     height: 204px;
     background: url(https://mgx-backend-cdn.metadl.com/generate/images/1082255/2026-04-18/m3qiyoyaae7q/pothole-fixed-done.png) no-repeat center/cover;
 }
 
 .imgg2 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     height: 204px;
     background: url(https://mgx-backend-cdn.metadl.com/generate/images/1082255/2026-04-18/m3qiwjqaafaq/pothole-report-1.png) no-repeat center/cover;
 }
 
 .imgg3 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     height: 204px;
     background: url(https://mgx-backend-cdn.metadl.com/generate/images/1082255/2026-04-18/m3qiwciaae7a/pothole-report-2.png)  no-repeat center/cover;
 }
