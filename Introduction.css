@@ -245,7 +245,7 @@ ul a:hover {
 
 .iframes {
     display: flex;
-    gap: 40px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -352,7 +352,7 @@ iframe {
     box-shadow: rgba(180, 180, 180, 0.1) 0px 10px 20px 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {         
     .home-h1 {
         font-size: 40px;
     }
@@ -375,8 +375,9 @@ iframe {
     }
 
     .iframes {
-        flex-direction: column;
-    }
+        display: flex;
+        flex-wrap: wrap;
+}
 }
 
 @media (max-width: 1024px) {
@@ -427,6 +428,9 @@ iframe {
 
     .home-p{
         font-size: 16px;
+    }
+    .iframe-btn{
+        flex-basis: 100% !important ;
     }
 
 }
@@ -503,4 +507,10 @@ iframe {
     .home-p{
         font-size: 12px;
     }
+}
+
+
+.iframe-btn{
+    flex-basis: 40%;
+    flex-grow: 1;
 }
