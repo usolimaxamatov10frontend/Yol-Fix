@@ -514,3 +514,66 @@ iframe {
     flex-basis: 40%;
     flex-grow: 1;
 }
+
+.iframe-name{
+    font-size: 28px;
+    font-weight: 500;
+    color: #e8500a8a;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.iframe-btnn1 {
+    background: linear-gradient(130deg, orange 0%, #E8520A 100%);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.iframe-btnn2 {
+    background: linear-gradient(130deg, deepskyblue 0%, white 100%);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.iframe-btnn3 {
+    background: linear-gradient(130deg, white 50%, deepskyblue 100%);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.iframe-btnn4 {
+    background: linear-gradient(130deg, orange 50%, #E8520A 100%);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}

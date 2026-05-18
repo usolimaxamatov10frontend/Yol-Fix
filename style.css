@@ -1274,3 +1274,7 @@ img {
         height: auto;
     }
 }
+
+.summary-stats{
+    padding: 50px;
+}
