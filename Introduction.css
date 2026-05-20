@@ -206,7 +206,7 @@ ul a:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 50%;
+    width: 33.33%;
     height: 102px;
     border-right: solid 1px #555;
     border-left: solid 1px #555;
@@ -217,15 +217,32 @@ ul a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 10px;
-    width: 50%;
+    width: 33.33%;
     height: 102px;
     border-left: solid 1px #555;
     border-right: solid 1px #555;
+    padding: 0px 20px;
+}
+
+.stat3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 33.33%;
+    height: 102px;
+    border-left: solid 1px #555;
+    border-right: solid 1px #555;
+
 }
 
 .stat1 p:first-child,
-.stat2 p:first-child {
+.stat2 p:first-child,
+.stat3 p:first-child {
     font-size: 50px;
     font-weight: 700;
     background: linear-gradient(130deg, yellow 0%, #E8520A 100%);
@@ -234,7 +251,8 @@ ul a:hover {
 }
 
 .stat1 p:last-child,
-.stat2 p:last-child {
+.stat2 p:last-child,
+.stat3 p:last-child {
     font-size: 14px;
     font-weight: 400;
 }
@@ -637,3 +655,4 @@ iframe {
     box-shadow: #e8500a34 0px 6px 12px 6px;
     transform: translateY(-3px);
 }
+
