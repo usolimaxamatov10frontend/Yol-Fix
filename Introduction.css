@@ -590,6 +590,8 @@ iframe {
 .iframe-btn{
     flex-basis: 40%;
     flex-grow: 1;
+    cursor: pointer;
+    margin-top: 60px;
 }
 
 .iframe-name{
