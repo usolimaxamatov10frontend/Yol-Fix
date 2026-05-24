@@ -206,9 +206,74 @@ img {
     display: block;
 }
 
+/* Checkbox yashirish */
+#menu-toggle {
+    display: none;
+}
+
+/* Burger icon */
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 28px;
+    height: 3px;
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Mobile menu */
+.mobile-menu {
+    transition: 0.4s ease;
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Checkbox bosilganda menu ochiladi */
+#menu-toggle:checked ~ .mobile-menu {
+    display: flex;
+}
+
+/* Burger animatsiya */
+#menu-toggle:checked ~ .navbar-inner>.burger span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+#menu-toggle:checked ~ .navbar-inner>.burger span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked ~ .navbar-inner>.burger span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Desktop */
 @media (min-width: 768px) {
     .mobile-menu {
         display: none;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
     }
 }
 
@@ -311,17 +376,7 @@ img {
     margin-bottom: 24px;
 }
 
-@media (min-width: 640px) {
-    .hero h1 {
-        font-size: 52px;
-    }
-}
 
-@media (min-width: 1024px) {
-    .hero h1 {
-        font-size: 58px;
-    }
-}
 
 .hero h1 .accent {
     color: #E8520A;
@@ -338,7 +393,6 @@ img {
 
 .hero-buttons {
     display: flex;
-    flex-wrap: wrap;
     gap: 12px;
     margin-bottom: 40px;
 }
@@ -742,11 +796,35 @@ img {
     position: relative;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 640px) {
     .report-section {
         padding: 96px 0;
     }
+    .hero h1{
+        font-size: 30px !important;
+    }
 }
+@media (max-width: 450px) {
+
+ .hero-buttons a{
+    flex-grow: 1 !important;
+ }
+ .cta-section h2{
+    font-size: 28px !important;
+ }
+ .section-title{
+    font-size: 28px !important;
+ }
+}
+@media (max-width: 640px) {
+    .report-section {
+        padding: 96px 0;
+    }
+    .hero h1{
+        font-size: 30px !important;
+    }
+}
+
 
 .report-section .top-border {
     position: absolute;

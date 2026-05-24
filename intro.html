@@ -21,33 +21,48 @@
 
 <body>
 
-    <nav class="navbar bg-[#0F0E0D]transparent backdrop-blur-md border-b border-gray-600" id="navbar">
-        <div class="container">
-            <div class="navbar-inner">
-                <a href="index.html" class="logo">
-                    <span class="logo-yol">Yol</span><span class="logo-fix">Fix</span>
-                </a>
-                <div class="nav-links">
-                    <a href="#hero" class="nav-link">Bosh sahifa</a>
-                    <a href="#how-it-works" class="nav-link">Qanday ishlaydi</a>
-                    <a href="#reports-status" class="nav-link">Murojaatlar</a>
-                    <a href="#report" class="nav-link">Xarita</a>
-                    <a href="#contact" class="nav-link">Bizning haqimizda</a>
-                    <a href="#report" class="btn-primary">Muammo bildirish</a>
-                </div>
+  <nav class="navbar bg-[#0F0E0D] transparent backdrop-blur-md border-b border-gray-600" id="navbar">
+    <div class="container">
+        <input type="checkbox" id="menu-toggle">
+        <div class="navbar-inner">
 
+            <a href="index.html" class="logo">
+                <span class="logo-yol">Yol</span><span class="logo-fix">Fix</span>
+            </a>
+
+            <!-- Checkbox -->
+
+            <!-- Burger -->
+            <label for="menu-toggle" class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Desktop menu -->
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Bosh sahifa</a>
+                <a href="#how-it-works" class="nav-link">Qanday ishlaydi</a>
+                <a href="#reports-status" class="nav-link">Murojaatlar</a>
+                <a href="#report" class="nav-link">Xarita</a>
+                <a href="#contact" class="nav-link">Bizning haqimizda</a>
+                <a href="#report" class="btn-primary">Muammo bildirish</a>
             </div>
-            <div class="mobile-menu" id="mobile-menu">
-                <a href="#hero" class="mobile-link">Bosh sahifa</a>
-                <a href="#how-it-works" class="mobile-link">Qanday ishlaydi</a>
-                <a href="#reports-status" class="mobile-link">Murojaatlar</a>
-                <a href="#report" class="mobile-link">Xarita</a>
-                <a href="#contact" class="mobile-link">Bizning haqimizda</a>
-                <a href="#report" class="btn-primary mobile-cta">Muammo bildirish</a>
-            </div>
+
         </div>
-    </nav>
 
+        <!-- Mobile menu -->
+        <div class="mobile-menu">
+            <a href="#hero" class="mobile-link">Bosh sahifa</a>
+            <a href="#how-it-works" class="mobile-link">Qanday ishlaydi</a>
+            <a href="#reports-status" class="mobile-link">Murojaatlar</a>
+            <a href="#report" class="mobile-link">Xarita</a>
+            <a href="#contact" class="mobile-link">Bizning haqimizda</a>
+            <a href="#report" class="btn-primary mobile-cta">Muammo bildirish</a>
+        </div>
+
+    </div>
+</nav>
     <section class="hero" id="hero">
         <div class="hero-bg"></div>
         <div class="container" style="width:100%">
@@ -58,7 +73,7 @@
                         <div class="pulse-dot"></div>
                         <span>Faol monitoring tizimi</span>
                     </div>
-                    <h1>Yo'llardagi chuqur va noteksliklarni <span class="accent">biz bilan</span> hal qiling</h1>
+                    <h1 class="hero-title">Yo'llardagi chuqur va noteksliklarni <span class="accent">biz bilan</span> hal qiling</h1>
                     <p class="hero-text">Shahrimizdagi yo'l chuqurlarini rasmga olib platformamizga yuklang.
                         Mutaxassislar jamoamiz har bir murojaatni ko'rib chiqadi va tezkor choralar ko'radi.</p>
                     <div class="hero-buttons">
