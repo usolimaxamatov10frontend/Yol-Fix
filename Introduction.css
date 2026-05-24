@@ -494,6 +494,11 @@ iframe {
     .contact h1 {
         font-size: 25px;
     }
+
+    .home-h1 {
+        font-size: 50px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 67px) {
