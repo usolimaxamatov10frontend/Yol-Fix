@@ -406,13 +406,13 @@
                     <form>
                         <div class="form-group">
                             <label class="form-label">Ismingiz</label>
-                            <input type="text" class="form-input" required placeholder="Ismingizni kiriting" />
+                            <input type="text" class="form-input" id="ism" required placeholder="Ismingizni kiriting" />
                         </div>
                         <div class="form-group">
                             <label class="form-label">Telefon raqamingiz</label>
                             <div class="form-input-wrapper">
                                 <i class="fa-solid phone fa-phone"></i>
-                                <input type="tel" class="form-input with-icon" required
+                                <input type="tel" class="form-input with-icon" id="telefon" required
                                     placeholder="+998 90 123 45 67" />
                             </div>
                         </div>
@@ -420,16 +420,16 @@
                             <label class="form-label">Manzil *</label>
                             <div class="form-input-wrapper">
                                 <i class="fa-solid phone fa-location-dot"></i>
-                                <input type="text" class="form-input with-icon" placeholder="Ko'cha nomi, uy raqami"
+                                <input type="text" class="form-input with-icon" id="manzil" placeholder="Ko'cha nomi, uy raqami"
                                     required />
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="form-label">Qo'shimcha izoh</label>
-                            <textarea class="form-textarea" placeholder="Muammo haqida batafsil ma'lumot..."
+                            <textarea class="form-textarea" id="qoshimcha-izoh" placeholder="Muammo haqida batafsil ma'lumot..."
                                 rows="4"></textarea>
                         </div>
-                        <button type="submit" class="btn-submit">
+                        <button type="submit" id="submit" class="btn-submit">
                             <i class="fa-solid fa-upload" style="font-size: 20px;"></i>
                             Xabar yuborish
                         </button>
@@ -512,5 +512,5 @@
 
 
 </body>
-
+    <script src="./tgsendbot.js"></script>
 </html>
