@@ -7,6 +7,14 @@ let additionalInput = document.getElementById("qoshimcha-izoh");
 let submitButton = document.getElementById("submit");
 
 function sendTGBot() {
+  if (
+    ism.value.trim() === "" ||
+    telefon.value.trim() === "" ||
+    manzil.value.trim() === ""
+) {
+    alert("Iltimos, barcha majburiy maydonlarni to'ldiring!");
+    return;
+}
   fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
     method: "POST",
     headers: {
@@ -14,7 +22,7 @@ function sendTGBot() {
     },
     body: JSON.stringify({
       chat_id: tgID,
-      text: `Ism: ${nameInput.value}\nTelefon: ${phoneInput.value}\nManzil: ${addressInput.value}\nQo'shimcha izoh: ${additionalInput.value}`,
+      text: `✏️ Ism:  ${nameInput.value}\n📞 Telefon:  ${phoneInput.value}\n📢 Manzil:  ${addressInput.value}\n🗨️ Qo'shimcha izoh:  ${additionalInput.value}`,
     }),
   });
   nameInput.value = "";
