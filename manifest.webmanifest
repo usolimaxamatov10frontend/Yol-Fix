@@ -1,5 +1,5 @@
 {
-  "name": "YolFix",
+  "name": "YolFix  ",
   "start_url": "index.html",
   "display": "fullscreen",
   "orientation": "portrait",
@@ -7,7 +7,7 @@
     {
       "src": "assets/icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "yf_logo_solo (1).svg"
     }
   ]
 }
