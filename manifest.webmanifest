@@ -5,9 +5,9 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "assets/icon.png",
+      "src": "yf_logo_solo (1).svg",
       "sizes": "512x512",
-      "type": "yf_logo_solo (1).svg"
+      "type": "image/svg+xml"
     }
   ]
 }
